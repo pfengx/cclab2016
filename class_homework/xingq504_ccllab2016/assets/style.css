@@ -1,0 +1,31 @@
+#wrapper{
+	position: absolute; 
+	width:100px;
+	height:100px;
+  	top: 50%;
+  	left: 50%;
+  	margin:-50px 0 0 -50px;
+}
+#div1{
+	position: relative;
+	width: 50%;
+	height: 50%;
+	background-color: #801815;
+	margin-bottom: 10px;
+}
+#div2{
+	position: relative;
+	float: left;
+	vertical-align: bottom;
+	width: 10%;
+	height: 10%;
+	background-color: #D46D6A;
+}
+#div3{
+	position: relative;
+	float: right;
+	width: 10%;
+	height: 10%;
+	background-color: #FFACAA;
+}
+

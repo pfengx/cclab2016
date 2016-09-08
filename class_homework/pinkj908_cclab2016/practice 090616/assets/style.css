@@ -1,0 +1,52 @@
+#wrapper{
+	position: absolute; 
+	width:400px;
+	height:200px;
+  	top: 25%;
+  	left: 15%;
+  	margin:-50px 0 0 -50px;
+}
+#div1{
+	position: relative;
+	width: 80%;
+	height: 45%;
+	background-color: #b2ffe9;
+	margin-bottom: 10px;
+}
+#div2{
+	position: relative;
+	float: left;
+	vertical-align: bottom;
+	width: 45%;
+	height: 45%;
+	background-color: #b2bffc;
+}
+#div3{
+	position: relative;
+	float: right;
+	width: 45%;
+	height: 45%;
+	margin-right: 20%;
+	background-color: #f26969;
+}
+#div4{
+	position: relative;
+	float: left;
+	width: 45%;
+	height: 45%;
+	background-color: #f26969;
+	margin-right: 5%;
+	margin-left:5%;
+}
+
+#div5{
+	position: relative;
+	float: right;
+	vertical-align: bottom;
+	width: 45%;
+	height: 45%;
+	background-color: #b2bffc;
+	margin-left: 5%;
+	margin-right: 5%;
+
+

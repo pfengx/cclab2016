@@ -1,0 +1,45 @@
+#wrapper{
+	position: absolute; 
+	width:200px;
+	height:200px;
+	top: 50%;
+	left: 50%;
+	margin:-50px 0 0 -50px;
+/*	border-radius: 50%;
+	border-style: solid;
+	border-width: 2px;*/
+}
+#div1{
+	position: absolute;
+	width: 20%;
+	height: 20%;
+	background-color: #FF4900;
+	margin:10% 10% 10% 10%;
+	border-radius: 45%;
+	border-style: solid;
+	border-width: 3px;
+}
+
+#div2{
+	position: absolute;
+	width: 20%;
+	height: 20%;
+	background-color: #1F7B0E;
+	margin: 0 0 0 0 ;
+	border-radius: 45%;
+	border-style: solid;
+	border-width: 3px;
+}
+#div3{
+	position: absolute;
+	width: 20%;
+	height: 20%;
+	background-color: #E74C3C;
+	margin: 0 0 0 0 ;
+	border-radius: 45%;
+	border-style: solid;
+	border-width: 3px;
+}
+
+
+
