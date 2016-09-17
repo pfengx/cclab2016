@@ -1,0 +1,35 @@
+body {
+	background-color: black;
+}
+#rainContainer {
+	position: absolute;
+	width: 100vw;
+	height: 100vh;
+}
+#rain {
+	position: relative;
+	width: 12%;
+	height: 10%;
+}
+#fire02{
+	position: absolute;
+	top: 20vh;
+	left: 35vw;
+	width: 60%;
+	/*height: 60%;*/
+}
+#fire01{
+	position: absolute;
+	top: 20vh;
+	left: 35vw;
+	width: 60%;
+	/*height: 60%;*/
+}
+#firepit{
+	position: absolute;
+	top: 20vh;
+	left: 35vw;
+	width: 60%;
+	/*height: 60%;*/
+
+}

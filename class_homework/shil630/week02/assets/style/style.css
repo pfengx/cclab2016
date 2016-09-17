@@ -1,0 +1,145 @@
+@import 'https://fonts.googleapis.com/css?family=Baloo+Tamma';
+@import 'https://fonts.googleapis.com/css?family=Open+Sans';
+
+* { margin:0; padding:0;}
+body {
+	font-family: 'Baloo Tamma', cursive;
+	background-color: #4088FF;
+/*	background: url('../imgs/sea.jpg') no-repeat;*/
+	
+}
+
+#title {
+	margin-top: 200px;
+	position: relative;
+	font-size: 48pt;
+	text-align: center;
+	color: #fff;
+
+
+}
+
+#buttonPick {
+	margin: auto;
+	margin-top: 64px;
+	font-size: 24px;
+	width: 120px;
+	height: 50px;
+	background-color: #FFE800;
+	color: #4088FF;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 12px;
+	cursor:pointer;
+}
+
+#buttonPick:hover {
+	background-color: #fff;
+}
+
+p.describe {
+	font-family: 'Open Sans', sans-serif;
+	font-style: italic;
+	margin-top: 12px;
+	color: #fff;
+	text-align: center;
+	font-size: 15px;
+
+}
+
+
+#loading {
+	position: absolute;
+	width: 100vw;
+	justify-content: center;
+	text-align: center;
+	margin: auto;
+	margin-top: 240px;
+	display: none;
+}
+
+#bottle {
+	position: absolute;
+	width: 100vw;
+	justify-content: center;
+	text-align: center;
+	margin: auto;
+	margin-top: 160px;
+	display: none;
+}
+
+#buttonOpen {
+	margin: auto;
+	margin-top: 48px;
+	font-size: 24px;
+	width: 120px;
+	height: 50px;
+	background-color: #FFE800;
+	color: #4088FF;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 12px;
+	cursor:pointer;
+}
+#buttonOpen:hover {
+	background-color: #fff;
+}
+
+
+#message {
+	width: 480px;
+	height: 160px;
+	font-size: 24px;
+    margin: auto;
+    margin-top: 200px;
+    padding-left: 16px;
+    padding-right: 16px;
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 8px;
+    display: none;
+}
+
+#messageTitle {
+	font-size: 36px;
+/*	color: #FFE800;*/
+	color: #4088FF;
+}
+
+#text {
+	color: #4088FF;
+
+}
+
+#buttonBack {
+	margin: auto;
+	margin-top: 84px;
+	font-size: 24px;
+	width: 120px;
+	height: 50px;
+	background-color: #FFE800;
+	color: #4088FF;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 12px;
+	cursor:pointer;
+}
+#buttonBack:hover {
+	background-color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+

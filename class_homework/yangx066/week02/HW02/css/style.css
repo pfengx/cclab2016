@@ -1,0 +1,210 @@
+@import 'https://fonts.googleapis.com/css?family=Montserrat';
+@import 'https://fonts.googleapis.com/css?family=Quicksand:300|Raleway:100';
+
+* { margin:0; padding:0;}
+body {
+    color: #000;
+    font-family: 'Montserrat', cursive;
+    font-size:100%;
+    /*background: #ff6656;*/
+}
+
+h1 {
+    margin-top: 10PX;
+    margin-bottom: 10px;
+    font-size: 28pt;
+    text-align: center;
+    text-transform: uppercase;
+}
+p{
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    font-size:110%;
+}
+#all {
+    position:relative;
+    width:100%;
+    max-width: 400px;
+    height: calc(100vh - 60px);
+    margin: 30px auto;
+    padding: 0;
+
+}
+
+#background{
+    display:block;
+    position:absolute;
+    margin:0 auto;
+    width: 400px;
+    height: 400px;
+    background:#ff6656;
+    z-index:1;
+}
+
+#face {
+    display:block;
+    position:absolute;
+    margin:0 auto;
+    width: 400px;
+    height: 400px;
+    background: url('../image/face1.png') no-repeat;
+    background-size:100% auto;
+    z-index:2;
+}
+#hair {
+    display:block;
+    position:absolute;
+    margin:0 auto;
+    width: 400px;
+    height: 400px;
+    background: url('../image/hair1.png') no-repeat;
+    background-size:100% auto;
+    z-index:4;
+}
+#eye {
+    display:block;
+    position:absolute;
+    margin:0 auto;
+    width: 400px;
+    height: 400px;
+    background: url('../image/eye1.png') no-repeat;
+    background-size:100% auto;
+    z-index:5;
+}
+#nose {
+    display:block;
+    position:absolute;
+    margin:0 auto;
+    width: 400px;
+    height: 400px;
+    background: url('../image/nose1.png') no-repeat;
+    background-size:100% auto;
+    z-index:3;
+}
+#mouth {
+    display:block;
+    position:absolute;
+    margin:0 auto;
+    width: 400px;
+    height: 400px;
+    background: url('../image/mouth1.png') no-repeat;
+    background-size:100% auto;
+    z-index:3;
+}
+
+#submits {
+    position: relative;
+    top: 450px;
+}
+
+#submitFace {
+    color:#fff;
+    font-family: 'Montserrat', cursive;
+    font-size:100%;
+    background: #cccccc;
+    border-radius: 10px;
+    border:0;
+    padding:5px 10px;
+    cursor:pointer;
+}
+#submitFace:hover {
+    color:#ff6656;
+    background:#fff;
+    border: 2px solid #ff6656;
+}
+
+#submitHair {
+    position: relative;
+    top: 15px;
+    left: -75px;
+    color:#fff;
+    font-family: 'Montserrat', cursive;
+    font-size:100%;
+    background: #cccccc;
+    border-radius: 10px;
+    border:0;
+    display:inline-block;
+    padding:5px 10px;
+    cursor:pointer;
+}
+#submitHair:hover {
+    color:#ff6656;
+    background:#fff;
+    border: 2px solid #ff6656;
+}
+
+#submitEye {
+    position: relative;
+    top: 15px;
+    left: -20px;
+    color:#fff;
+    font-family: 'Montserrat', cursive;
+    font-size:100%;
+    background: #cccccc;
+    border-radius: 10px;
+    border:0;
+    display:inline-block;
+    padding:5px 10px;
+    cursor:pointer;
+}
+#submitEye:hover {
+    color:#ff6656;
+    background:#fff;
+    border: 2px solid #ff6656;
+}
+
+#submitNose {
+    position: relative;
+    top: 15px;
+    left: 25px;
+    color:#fff;
+    font-family: 'Montserrat', cursive;
+    font-size:100%;
+    background: #cccccc;
+    border-radius: 10px;
+    border:0;
+    display:inline-block;
+    padding:5px 10px;
+    cursor:pointer;
+}
+#submitNose:hover {
+    color:#ff6656;
+    background:#fff;
+    border: 2px solid #ff6656;
+}
+
+#submitMouth {
+    position: relative;
+    top: 15px;
+    left: 75px;
+    color:#fff;
+    font-family: 'Montserrat', cursive;
+    font-size:100%;
+    background: #cccccc;
+    border-radius: 10px;
+    border:0;
+    display:inline-block;
+    padding:5px 10px;
+    cursor:pointer;
+}
+#submitMouth:hover {
+    color:#ff6656;
+    background:#fff;
+    border: 2px solid #ff6656;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

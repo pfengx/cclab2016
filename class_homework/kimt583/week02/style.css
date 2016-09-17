@@ -1,0 +1,41 @@
+#bargraph{
+  text-align: center;
+}
+
+.bar {
+  fill: #FFD100;
+}
+
+.bar:hover {
+  fill: #F42D01;
+}
+
+.axis {
+  font: 10px sans-serif;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.x.axis path {
+  display: none;
+}
+
+#bigmac{ 
+  height: 100px;
+  display: block;
+  margin: auto;
+
+}
+#title {
+  margin: 0;
+  font-family: impact;
+  font-size: 100px;
+  text-align: center;
+
+}
+
