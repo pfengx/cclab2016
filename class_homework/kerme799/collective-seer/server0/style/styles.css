@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Alex+Brush|Pinyon+Script');
+
+body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Pinyon Script', cursive;
+    margin: 0;
+    padding: 0;
+    display: flex;
+   /* background-color: gray;*/
+}
+
+#container {
+    width: 100vw;
+    height:100vh;
+    z-index: 0;
+    font-size: 1em;
+}
+
+#sky {
+    background-image: url("/style/assets/ciel5.png");
+    display: block;
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+h1 {
+    text-align: center;
+    font-weight: bold;
+}
+
+#sketch-container {
+    position: fixed;
+    z-index: 1;
+    margin-top: 293px;
+    margin-left: 675px;
+}
+
+#camera-container {
+    position: fixed;
+    z-index: -250;
+    margin-top: 293px;
+    padding: 0;
+}
+
+/*#ciel {
+    background-image: url('/style/assets/clouds.jpg');
+/*    opacity: 0;*/
+/*    z-index: -251;*/
+
+/*#ciel-text {
+    opacity: 0;    
+    font-size: 4em;
+    padding: 300px 300px;
+    z-index: -1;
+    text-transform: rotate -30deg;
+}*/
+
+

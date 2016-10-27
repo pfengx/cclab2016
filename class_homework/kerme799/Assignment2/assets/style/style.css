@@ -1,0 +1,91 @@
+@import'https://fonts.googleapis.com/css?family=Poiret+One|Yatra+One';
+
+* { margin:0; padding:0;}
+
+body {
+	color: #FFF;
+	font-family: 'Poiret One', sans-serif;
+	font-size:100%;
+	background: #000000;
+}
+
+h1 {
+	margin-bottom: 30px;
+	font-size: 28pt;
+	text-align: center;
+	text-transform: uppercase;
+}
+#wrapper {
+	position:relative;
+	width:100%;
+	max-width: 500px;
+/*	height: calc(100vh - 60px);*/	
+	height: 400px;
+	margin: 30px auto;
+	padding: 0;
+/*	background-color: red;
+*/}
+
+/*h2 {
+	display: none;	
+	position: relative;
+	text-align: center;
+	text-transform: uppercase;
+	z-index: 2;
+}*/
+
+#end {
+	position: relative;
+	margin:0 auto;
+	background: url('../img/explosion.png') no-repeat;
+	width: 400px;
+	height: 400px; 
+	background-size:100% auto;
+	display: none;
+/*	background-color: yellow;
+*/
+}
+
+#earth {
+	display:block;
+	position:relative;
+	margin:0 auto;
+/*	border-radius: 50%;	*/	
+	width: 400px;
+	height: 400px; 
+	background: url('../img/earth.png') no-repeat;
+	background-size:100% auto;
+	z-index:1;
+}
+
+
+
+/*.moons {
+	position: relative;
+	width: 100%;
+	max-width: 500px;
+	margin: 30px auto;
+	background-color: red;
+	text-align: center;
+	padding: 20px;
+}*/
+
+.phases {
+	display: block;
+	width: 100%;
+	max-width: 500px;
+	height: 500px;
+/*	background-color: #FFF;
+*/	padding: 20px;
+	margin: 30px auto;
+/*	color: yellow;
+*/	text-align: center;
+
+}
+
+
+/* --  webkit "hack" to style placeholder text -- */ 
+::-webkit-input-placeholder { color: #438ec1; text-align: center;  }
+:-moz-placeholder { color: #438ec1; text-align: center;  }
+::-moz-placeholder { color: #438ec1; text-align: center;  }
+:-ms-input-placeholder { color: #438ec1; text-align: center;  }
